@@ -19,7 +19,7 @@ const Routes = () => {
 
   useEffect(() => {
     const subscriber = auth().onAuthStateChanged(onAuthStateChanged);
-    return subscriber;
+    return subscriber; //unsubsribe on unmount
   }, []);
 
   if (loading) {
