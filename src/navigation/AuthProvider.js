@@ -14,7 +14,7 @@ export const AuthProvider = ({children}) => {
   function configureGoogleSign() {
     GoogleSignin.configure({
       webClientId:
-        '982398107838-3d3k3fn6qd5003r7toet07p2jlrrp930.apps.googleusercontent.com',
+        '',
     });
   }
   return (
